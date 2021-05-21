@@ -1,0 +1,12 @@
+'''
+Exercício Python 7:
+Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
+'''
+
+nota1 = float(input('Digite a primeira nota: '))
+nota2 = float(input('Digite a segunda nota: '))
+soma = nota1 + nota2
+media = soma / 2
+
+print(f'A primeira nota {nota1} mais a segunda nota {nota2} soma o total de {soma}.')
+print(f'A media do aluno é {media}.')
